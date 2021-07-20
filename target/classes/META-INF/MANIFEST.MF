@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1626762452720
+Build-Jdk: 11.0.10
+Built-By: KPVC
+Bundle-Description: Empty Camel Spring Example
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Camel Spring Example [BasicDeployProj]
+Bundle-SymbolicName: BasicDeployProj
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-3.2.0.201605172007
