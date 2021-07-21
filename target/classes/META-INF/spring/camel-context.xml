@@ -18,7 +18,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring https://camel.apache.org/schema/spring/camel-spring.xsd">
     <camelContext id="_camelContext1" xmlns="http://camel.apache.org/schema/spring">
         <route id="_route1">
-            <from id="_from1" uri="restlet:http://localhost:8080/BasicDeploy"/>
+            <from id="_from1" uri="restlet:http://localhost:8282/BasicDeploy"/>
             <setBody id="_setBody1">
                 <constant>Hello its from basic deploy</constant>
             </setBody>

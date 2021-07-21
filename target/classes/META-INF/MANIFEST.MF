@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1626762452720
-Build-Jdk: 11.0.10
-Built-By: KPVC
+Bnd-LastModified: 1626785012392
+Build-Jdk: 1.8.0_251
+Built-By: rahul
 Bundle-Description: Empty Camel Spring Example
 Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
 Bundle-ManifestVersion: 2
