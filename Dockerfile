@@ -1,5 +1,5 @@
-FROM nagpalnitin0110/fuse-demo
+FROM jboss/base-jdk:7
 
-EXPOSE 8282
+EXPOSE 8181
 
 COPY target/*.jar /opt/jboss/jboss-fuse/deploy/
