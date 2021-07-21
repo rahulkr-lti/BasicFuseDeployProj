@@ -1,0 +1,86 @@
+{
+  "apiVersion" : "v1",
+  "kind" : "Service",
+  "metadata" : {
+    "annotations" : {
+      "prometheus.io/port" : "9779",
+      "prometheus.io/scrape" : "true"
+    },
+    "creationTimestamp" : "2021-07-21T05:41:12Z",
+    "labels" : {
+      "app" : "july21t1",
+      "expose" : "true",
+      "group" : "org.mycompany",
+      "provider" : "fabric8",
+      "version" : "1.0.0-SNAPSHOT"
+    },
+    "managedFields" : [ {
+      "apiVersion" : "v1",
+      "fieldsType" : "FieldsV1",
+      "fieldsV1" : {
+        "f:metadata" : {
+          "f:annotations" : {
+            "." : { },
+            "f:prometheus.io/port" : { },
+            "f:prometheus.io/scrape" : { }
+          },
+          "f:labels" : {
+            "." : { },
+            "f:app" : { },
+            "f:expose" : { },
+            "f:group" : { },
+            "f:provider" : { },
+            "f:version" : { }
+          }
+        },
+        "f:spec" : {
+          "f:ports" : {
+            "." : { },
+            "k:{\"port\":8080,\"protocol\":\"TCP\"}" : {
+              "." : { },
+              "f:name" : { },
+              "f:port" : { },
+              "f:protocol" : { },
+              "f:targetPort" : { }
+            }
+          },
+          "f:selector" : {
+            "." : { },
+            "f:app" : { },
+            "f:group" : { },
+            "f:provider" : { }
+          },
+          "f:sessionAffinity" : { },
+          "f:type" : { }
+        }
+      },
+      "manager" : "okhttp",
+      "operation" : "Update",
+      "time" : "2021-07-21T05:41:12Z"
+    } ],
+    "name" : "july21t1",
+    "namespace" : "cfmr-cf-operator",
+    "resourceVersion" : "40227655",
+    "selfLink" : "/api/v1/namespaces/cfmr-cf-operator/services/july21t1",
+    "uid" : "998eecc8-62a8-4a39-b818-d5112177814e"
+  },
+  "spec" : {
+    "clusterIP" : "172.21.209.179",
+    "ports" : [ {
+      "name" : "http",
+      "port" : 8080,
+      "protocol" : "TCP",
+      "targetPort" : 8080
+    } ],
+    "selector" : {
+      "app" : "july21t1",
+      "group" : "org.mycompany",
+      "provider" : "fabric8"
+    },
+    "sessionAffinity" : "None",
+    "type" : "ClusterIP"
+  },
+  "status" : {
+    "loadBalancer" : { }
+  }
+}

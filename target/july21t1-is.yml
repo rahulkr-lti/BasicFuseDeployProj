@@ -1,0 +1,17 @@
+---
+apiVersion: "v1"
+kind: "List"
+items:
+- apiVersion: "image.openshift.io/v1"
+  kind: "ImageStream"
+  metadata:
+    name: "july21t1"
+  spec:
+    lookupPolicy:
+      local: true
+    tags:
+    - from:
+        kind: "ImageStreamImage"
+        name: "july21t1@sha256:07e36bc8e450cdde11c0c6774accd89c664865bf3887f327490c74b6eb82747d"
+        namespace: "cfmr-cf-operator"
+      name: "latest"
