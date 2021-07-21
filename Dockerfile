@@ -1,4 +1,4 @@
-FROM nagpalnitin0110/fuse-demo
+FROM jboss/base-jdk:8
 
 EXPOSE 8282
 
