@@ -1,4 +1,3 @@
-#FROM jboss/base-jdk:8
-FROM rahulkrlti/fuseapplication:latest
+FROM rahulkrlti/demofuse:latest
 
-COPY target/*.jar /opt/jboss/jboss-fuse/deploy/
+COPY target/*.jar /deploy/
